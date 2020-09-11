@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sample for Game</title>
+</head>
+<body>
+    <header>
+        <nav>
+             <a href="index.html">Home</a>
+        </nav>
+        <h1>Заполнение формы</h1>
+    </header>
+    <main>
+         <form action="https://formspree.io/mqkyrvaa" method="post">
+            <p>Выберите жанр:</p>
+                <label>
+                    <input type="radio" name="vechical" value="rpg">РПГ
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="platform">Платформеры
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="shooter">Шутеры
+                </label><br>
+                <label>
+                    <input type="radio" name="vechical" value="ekonomy-strategy">Економические стратегии
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="war-strategy">Военные стратегии
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="battle-royal">Королевская битва
+                </label><br>
+            <p>Заполните ниже:</p> 
+                <label>Введите имя и фамилию:
+                    <input type="text" placeholder="Name" name="name" required>
+                </label><br> 
+                <label>Введите моб. тел:
+                    <input type="text" placeholder="Phone" name="phone" required>
+                </label><br>   
+                <label>Введите почту:
+                    <input type="email" placeholder="Email" name="email" required>
+                </label><br>
+                Выберите пол:
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label> 
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>  
+                <label>
+                    <input type="radio" name="gender" value="other">Other
+                </label><br>     
+                <label>
+                    <input type="submit" name="submit" value="Отправить">
+                </label>        
+         </form>
+    </main>    
+</body>
+</html>
